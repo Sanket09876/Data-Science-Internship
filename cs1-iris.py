@@ -1,5 +1,5 @@
 import pandas as pd
-df=pd.read_csv("C:/Users/Harshal/Desktop/ML Intern/iris dataset/Iris.csv")
+df=pd.read_csv("C:/Users/Sanket/Desktop/ML Intern/iris dataset/Iris.csv")
 
 x=df.drop('Species',axis=1)
 y=df['Species'] #selecting one column from dataset
